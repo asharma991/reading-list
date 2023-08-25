@@ -15,7 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.22.9",
@@ -42,8 +43,11 @@
     "html-webpack-plugin": "^5.5.3",
     "husky": "4",
     "lint-staged": "^13.2.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "node-sass": "^9.0.0",
     "prettier": "^3.0.2",
     "react-refresh": "^0.14.0",
+    "sass-loader": "^13.3.2",
     "style-loader": "^3.3.3",
     "typescript": "^5.1.6",
     "webpack": "^5.88.2",

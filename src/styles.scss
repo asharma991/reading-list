@@ -1,0 +1,113 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.create-book {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 30px 20px;
+  background-color: #a486ff;
+  width: 100%;
+  color: white;
+
+  form {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    color: black;
+    label {
+      font-weight: 500;
+    }
+    input {
+      width: 20%;
+      height: 30px;
+      border-radius: 5px;
+      border: none;
+      padding: 5px;
+      margin: 10px 0;
+    }
+    input:focus {
+      outline: none;
+    }
+    button {
+      padding: 10px;
+      border-radius: 5px;
+      border: 0;
+      color: black;
+      background-color: white;
+      cursor: pointer;
+    }
+  }
+}
+
+.book-list-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.book-card-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(43, 40, 40);
+  border-radius: 10px;
+  padding: 40px;
+  width: fit-content;
+  box-shadow: -8px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  height: 210px;
+  width: 300px;
+}
+
+.edit-btn {
+  cursor: pointer;
+  border: 0;
+  color: black;
+  background-color: white;
+  align-self: flex-end;
+}
+
+.edit-book-form {
+  display: flex;
+  flex-direction: column;
+  form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    input {
+      height: 30px;
+      border-radius: 5px;
+      border: 1px solid black;
+      padding: 5px;
+      margin: 10px 0;
+    }
+    input:focus {
+      outline: none;
+    }
+    label {
+      font-weight: 500;
+    }
+    button {
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid black;
+      color: black;
+      background-color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: black;
+      color: white;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+    }
+  }
+}

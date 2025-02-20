@@ -20,10 +20,14 @@ export const App = () => {
   };
 
   return (
-    <div>
-      <h1>Reading List</h1>
-      <BookList books={books} editBook={editBook} />
-      <CreateBook onCreate={createBook} />
-    </div>
+    <>
+      <div className='heading'>
+        <h1>Reading List</h1>
+      </div>
+      <div>
+        <BookList books={books} editBook={editBook} />
+        <CreateBook onCreate={createBook} />
+      </div>
+    </>
   );
 };

@@ -47,7 +47,7 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env.name': JSON.stringify('Abhishek but prod'),
     }),
-    new BundleAnalyzerPlugin(),
+    // new BundleAnalyzerPlugin(),
     new MiniCssExtractPlugin({
       filename: '[name].[hash].css',
       chunkFilename: '[id].[hash].css',
